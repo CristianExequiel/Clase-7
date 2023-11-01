@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    max-width: 400px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: rgb(21, 39, 13);
+}
+
+input[type="text"], input[type="number"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #205a18;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
